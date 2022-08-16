@@ -1,0 +1,11 @@
+.dragabbleBox {
+  cursor: grab
+}
+
+.draggingBox {
+  cursor: grabbing;
+
+  :global {
+    color: blue;
+  }
+}
